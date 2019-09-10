@@ -1,5 +1,5 @@
 {
-    "name": "vendor-name/module-name",
+    "name": "recipe-runner/module-template",
     "description": "A module for Recipe Runner",
     "type": "library",
     "keywords": [
@@ -10,9 +10,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your name",
-            "email": "your@email.com",
-            "homepage": "http://your-site.com"
+            "name": "Victor Puertas",
+            "email": "vpgugr@gmail.com",
+            "homepage": "http://yosymfony.com"
         }
     ],
     "require": {
