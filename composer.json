@@ -1,0 +1,41 @@
+{
+    "name": "vendor-name/module-name",
+    "description": "A module for Recipe Runner",
+    "type": "library",
+    "keywords": [
+        "module",
+        "recipe runner"
+    ],
+    "homepage": "https://github.com/recipe-runner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your name",
+            "email": "your@email.com",
+            "homepage": "http://your-site.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "recipe-runner/recipe-runner": "1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": { "RecipeRunner\\ModuleName\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "recipe-runner": {
+            "modules": [
+                "RecipeRunner\\ModuleName\\ModuleClass"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
