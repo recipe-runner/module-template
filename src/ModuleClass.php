@@ -38,9 +38,9 @@ class ModuleClass extends ModuleBase
      * Example of use:
      *  actions:
      *    print: "hello word"
-     * 
+     *
      * or
-     * 
+     *
      *  actions:
      *    print:
      *      message: "hello word"

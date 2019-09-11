@@ -50,7 +50,7 @@ steps:
 The preferred installation method is [Composer](https://getcomposer.org):
 
 ```bash
-composer require recipe-runner/module-name
+$ composer require vendor-name/module-name
 ```
 
 ### Unit tests
